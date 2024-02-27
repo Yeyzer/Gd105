@@ -28,10 +28,11 @@ void draw() {
   circle(888, -268, 10);
   rotate(-0.5);
   //train line number is next
-  stroke(251, 5, 5);
+  stroke(254, 1, 5);
   textSize(34);
-  text("2", 253, 202);
+  text("2", 77, 339);
   circle(83, 327, 105);
-
+  noFill();
+ text("7th Avenue ",164,339);
   `println("the mouse is at (" + mouseX + ", " + mouseY + ")");
 }

@@ -41,5 +41,14 @@ void draw() {
   text("abuse of power", 228, 408);
   text("abuse of power", 229, 433);
   text("abuse of power", 238, 462);
+  fill(250, 250, 250);
+  circle(383, 83, 231);
+  fill(10, 0, 0);
+  circle(322, 59, 62);
+  fill(15, 13, 0);
+  circle(420, 59, 62);
+  fill(251, 251, 251);
+  circle(323, 61, 30);
+  circle(421, 56, 34);
   save("output.png");
 }
