@@ -43,5 +43,5 @@ void draw() {
   text( currentD, 432, height - 40);
   text( currentM, 376, height - 40);
   text( currentY, 505, height -40);
-   save("frameRate//####.png");
+   save("output//####.png");
 }
