@@ -1,5 +1,5 @@
 int numLines = 100; // Number of lines
-float angleOffset = 0; // Initial angle offset
+float angleOffset = 0; // original angle offset
 
 void setup() {
   size(600, 600);
@@ -19,6 +19,5 @@ void draw() {
     line(x1, y1, x2, y2); // Draw line
   }
   
-  angleOffset += 0.06; // Increment angle offset for animation
-    
+  angleOffset += 0.06; // angle animation
 }
